@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="qr.png">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="generator.css">
+    <title>QR Code Generator</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+
+    <nav>
+        <button class="nav-gene">Generator</button>
+        
+    </nav>
+    <!-- Generator Section -->
+        <div class="generator-form">
+            <h1>QR Code Generator</h1>
+            <p>Paste a URL or enter text to create a QR Code</p>
+            <input id="inputval" type="text" placeholder="Enter text or URL">
+            <button id="formbtn">Generate QR Code</button>
+        </div>
+        <div class="generator" id="a">
+            <div class="generator-img">
+                <img src="qr.png" class="a" alt="Generated QR Code">
+            </div>
+
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+</html>
