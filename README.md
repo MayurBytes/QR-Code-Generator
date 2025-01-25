@@ -1,6 +1,6 @@
 # 👀 Live Preview
 Click below to explore the live preview👇:
-https://mayurbytes.github.io/QR-Code-Generator/
 
+https://mayurbytes.github.io/QR-Code-Generator/
 
 # 📽️ Video Demonstration
